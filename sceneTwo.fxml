@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: A6E3E1; -fx-background-color: F0EFD8;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SceneTwo">
+   <children>
+      <ListView fx:id="list" layoutX="185.0" layoutY="75.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: D4D3CC;" />
+      <Button layoutX="174.0" layoutY="299.0" mnemonicParsing="false" onAction="#removeEmail" text="Remove Email" />
+      <Button layoutX="312.0" layoutY="299.0" mnemonicParsing="false" onAction="#addEmail" text="Add Email" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</AnchorPane>
